@@ -5,14 +5,12 @@ A python code of telegram bot , The bot serach user input on wikipedia and show 
 No copyright code , Feel free for use
 
 <br>
-Required libraries
+Required libraries:
+
 
 telegram import Update
-
 telegram.ext (ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters)
-
 wikipedia
-
 logging
 <br><br>
 
