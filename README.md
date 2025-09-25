@@ -4,7 +4,7 @@ A python code of telegram bot , The bot serach user input on wikipedia and show 
 
 No copyright code , Feel free for use
 
-
+<br>
 Required libraries
 
 telegram import Update
@@ -14,7 +14,7 @@ telegram.ext (ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, 
 wikipedia
 
 logging
-
+<br><br>
 
 For get free telegram bot api (require for this project) Contact us
 
