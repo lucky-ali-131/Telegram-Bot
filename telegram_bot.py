@@ -39,7 +39,7 @@ async def wiki_search(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Something went wrong while fetching data from Wikipedia.")
 
 def main():
-    token = "8371693358:AAFxGxM8m2kI909DwoOJ4qFXCVyQDBetaIg"  # Replace this with your bot token
+    token = ""  # Replace this with your bot token
     app = ApplicationBuilder().token(token).build()
 
     app.add_handler(CommandHandler("start", start))
@@ -49,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
